@@ -5,6 +5,12 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+# Gems and plugins
+gems: [emoji_for_jekyll,jekyll-timeago]
+
+  # https://github.com/yihangho/emoji-for-jekyll
+  # https://github.com/markets/jekyll-timeago
+
 # Site settings
 title: eLog
 email: eresearch@jcu.edu.au
