@@ -1,0 +1,19 @@
+active: true
+bio:
+  Hacking on anything nearby
+email: steven.vanderavlk@jcu.edu.au
+github: stevenvandervalk
+image:
+  url: /images/steve.png
+  title: Steve Vandervalk
+  alt: Photo of Steve Vandervalk
+  attribution:
+layout: profile
+
+name: Steve Vandervalk
+role: Software engineer and resident hacker
+short:
+  <a href="/team/steve">Steve</a> is the founder and CEO of the blog...er ya.
+twitter: stevevandervalk
+type: employee
+website: http://stevevandervalk.com/
