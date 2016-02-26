@@ -2,18 +2,30 @@
 
   <nav>
     <h2 class="sr-only">Footer</h2>
+    <p> footer nav here... </p>
   </nav>
 
-  <div class="row jcu-colophon">
-    <div class="col-xs-12 text-xs-center">
-      <p class="">
-                <a href="#"><img src="/images/jcua-logo-campus-stack-full-colour.svg" alt="James Cook University Australia logo"></a>
-              </p>
-      <ul class="list-inline">
+  <div class="row">
+
+    <div class="col-sm-6 col-xs-12 jcu-colophon">
+      <ul class="list-unstyled">
         <!-- <li class="list-inline-item">Last published {{ site.time | date: "%-d %B %Y" }}</li> -->
-        <li class="list-inline-item">Last published  &#9829; {{ site.time | timeago }}</li>
-        <li class="list-inline-item">Copyright © 1995 to {{ site.time | date: "%Y" }} James Cook University.  All rights reserved</li>
-        <li class="list-inline-item">ABN 46253211955</li>
+        <li>Last &#9829;ingly published <b>{{ site.time | timeago }}</b></li>
+        <li>Copyright © 1995 to {{ site.time | date: "%Y" }} James Cook University.  All rights reserved</li>
+        <li>ABN 46253211955</li>
+      </ul>
+    </div>
+
+    <div class="col-sm-4 col-xs-8">
+      <a class="jcu-brand pull-xs-right" href="https://www.jcu.edu.au">
+        <img class="img-fluid" src="{{ site.baseurl }}/lib/jcuweb/images/jcua-logo-mono.svg" alt="JCU Australia logo">
+      </a>
+    </div>
+    <div class="col-sm-2 col-xs-4">
+      <ul class="jcu-campus-stack">
+        <li><a href="https://www.jcu.edu.au/about-jcu/campuses/cairns">Cairns</a></li>
+        <li><a href="https://www.jcu.edu.au/about-jcu/campuses/singapore">Singapore</a></li>
+        <li><a href="https://www.jcu.edu.au/about-jcu/campuses/townsville">Townsville</a></li>
       </ul>
     </div>
   </div>
