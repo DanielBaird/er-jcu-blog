@@ -12,3 +12,13 @@
     #dd9 20px
   );
 }
+
+
+// fade out the footer a smidge
+footer {
+  opacity: 0.66;
+  transition: opacity 0.5s;
+}
+footer:hover {
+  opacity: 1;
+}

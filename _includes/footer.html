@@ -1,56 +1,51 @@
-<footer class="jcu-footer hidden-print container-fluid container-fluid--max-width">
-
-  <nav>
-    <h2 class="sr-only">Footer</h2>
-    <p> footer nav here... </p>
-  </nav>
+<footer class="jcu-footer hidden-print container">
 
   <div class="row">
 
-    <div class="col-sm-6 col-xs-12 jcu-colophon">
-      <ul class="list-unstyled">
+    <div class="col-lg-8 col-xs-12 container-fluid">
+      <div class="row">
+        <nav>
+          <h2 class="sr-only">Footer</h2>
+          <ul class="nav navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.baseurl }}/about">About {{ site.title }}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.baseurl }}/allposts">See all posts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.baseurl }}/team">Meet the team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:{{ site.email }}">Email us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="row">
+        <p>{{ site.description }}</p>
+      </div>
+      <ul class="row jcu-colophon p-l-0">
         <!-- <li class="list-inline-item">Last published {{ site.time | date: "%-d %B %Y" }}</li> -->
-        <li>Last &#9829;ingly published <b>{{ site.time | timeago }}</b></li>
-        <li>Copyright © 1995 to {{ site.time | date: "%Y" }} James Cook University.  All rights reserved</li>
-        <li>ABN 46253211955</li>
+        <li class="list-inline-item">Last published <b>{{ site.time | timeago }}</b>.</li>
+        <li class="list-inline-item">&#9829; and © 1995 to {{ site.time | date: "%Y" }} James Cook University.  All rights reserved.</li>
+        <li class="list-inline-item">ABN 46253211955</li>
       </ul>
     </div>
 
-    <div class="col-sm-4 col-xs-8">
+    <div class="col-xs-10 col-lg-3">
       <a class="jcu-brand pull-xs-right" href="https://www.jcu.edu.au">
         <img class="img-fluid" src="{{ site.baseurl }}/lib/jcuweb/images/jcua-logo-mono.svg" alt="JCU Australia logo">
       </a>
     </div>
-    <div class="col-sm-2 col-xs-4">
-      <ul class="jcu-campus-stack">
+    <div class="col-xs-2 col-lg-1">
+      <ul class="jcu-campus-stack pull-xs-right">
         <li><a href="https://www.jcu.edu.au/about-jcu/campuses/cairns">Cairns</a></li>
         <li><a href="https://www.jcu.edu.au/about-jcu/campuses/singapore">Singapore</a></li>
         <li><a href="https://www.jcu.edu.au/about-jcu/campuses/townsville">Townsville</a></li>
       </ul>
     </div>
+
   </div>
 
 </footer>
-
-
-  <div class="wrapper inprogress">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
-
-  </div>
