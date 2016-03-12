@@ -1,0 +1,23 @@
+steve:
+    active: true
+    type: employee
+    name: Steve Vandervalk
+    role: Software engineer and resident hacker
+    bio:
+      Hacking on anything nearby
+    email: steven.vandervalk@jcu.edu.au
+    github: stevenvandervalk
+    twitter: stevevandervalk
+    website: http://stevevandervalk.com/
+    image:
+      url: /images/steve.png
+      title: Steve Vandervalk
+      alt: Photo of Steve Vandervalk
+      attribution:
+    short:
+      <a href="/team/steve">Steve</a> is the founder and CEO of the blog...er ya.
+
+daniel:
+    active: true
+    type: employee
+    name: Daniel Baird

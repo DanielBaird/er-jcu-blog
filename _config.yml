@@ -14,9 +14,10 @@ gems: [emoji_for_jekyll,jekyll-timeago]
 # Site settings
 title: eLog
 email: eresearch@jcu.edu.au
-description: > # this means to ignore newlines
-  eLog is the technical blog written by developers and other folk at
-  James Cook University's eResearch Centre.
+description: > # the greater-than sign starts a heredoc
+  eLog is a collection of mostly technical articles written by
+  developers and other folk at James Cook University's eResearch
+  Centre.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jcu_eresearch
@@ -24,3 +25,4 @@ github_username:  jcu-eresearch
 
 # Build settings
 markdown: kramdown
+
